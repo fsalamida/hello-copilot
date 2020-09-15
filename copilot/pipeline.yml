@@ -24,7 +24,6 @@ stages:
     - # The name of the environment to deploy to.
       name: test
       # Optional: use test commands to validate this stage of your build.
-      test_commands: 
-        - exit 1
+      test_commands: [false]
     - name: prod
 
